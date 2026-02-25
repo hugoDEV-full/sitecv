@@ -1,5 +1,5 @@
 :root{
-  --ring: rgba(13, 110, 253, .25);
+  --ring: rgba(102, 51, 153, .25);
 }
 
 body{
@@ -17,7 +17,7 @@ body.light{
 body.light .card,
 body.light .accordion-item{
   background-color: #ffffff;
-  border-color: rgba(0,0,0,.125);
+  border-color: rgba(102, 51, 153, .15);
 }
 
 body.light .text-secondary{
@@ -25,19 +25,19 @@ body.light .text-secondary{
 }
 
 body.light .btn-outline-secondary{
-  border-color: #6c757d;
-  color: #6c757d;
+  border-color: #663399;
+  color: #663399;
 }
 
 body.light .btn-outline-secondary:hover{
-  background-color: #6c757d;
+  background-color: #663399;
   color: #fff;
 }
 
 body.light .btn-group .btn.active{
-  background: rgba(13, 110, 253, .12);
-  border-color: rgba(13, 110, 253, .55);
-  color: #0d6efd;
+  background: rgba(102, 51, 153, .12);
+  border-color: #663399;
+  color: #663399;
 }
 
 body.light .bg-body-tertiary{
@@ -46,7 +46,7 @@ body.light .bg-body-tertiary{
 
 body.light .border-top,
 body.light .border-bottom{
-  border-color: rgba(0,0,0,.175) !important;
+  border-color: rgba(102, 51, 153, .15) !important;
 }
 
 body.light .navbar{
@@ -67,18 +67,18 @@ body.light .navbar-brand{
 
 body.light .hero{
   background:
-    radial-gradient(900px 300px at 20% 10%, rgba(13,110,253,.08), transparent 60%),
+    radial-gradient(900px 300px at 20% 10%, rgba(102,51,153,.12), transparent 60%),
     radial-gradient(800px 300px at 80% 10%, rgba(25,135,84,.08), transparent 60%);
 }
 
 .hero{
   background:
-    radial-gradient(900px 300px at 20% 10%, rgba(13,110,253,.22), transparent 60%),
+    radial-gradient(900px 300px at 20% 10%, rgba(102,51,153,.28), transparent 60%),
     radial-gradient(800px 300px at 80% 10%, rgba(25,135,84,.22), transparent 60%);
 }
 
 .grad{
-  background: linear-gradient(90deg, #0d6efd, #20c997);
+  background: linear-gradient(90deg, #663399, #20c997);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -88,9 +88,9 @@ body.light .hero{
   font-size: .75rem;
   padding: .25rem .5rem;
   border-radius: 999px;
-  background: rgba(13, 110, 253, .1);
-  color: #0d6efd;
-  border: 1px solid rgba(13, 110, 253, .2);
+  background: rgba(102, 51, 153, .1);
+  color: #663399;
+  border: 1px solid rgba(102, 51, 153, .2);
 }
 
 .tag{
@@ -100,8 +100,8 @@ body.light .hero{
   font-size: .85rem;
   padding: .25rem .5rem;
   border-radius: 999px;
-  background: rgba(108, 117, 125, .08);
-  border: 1px solid rgba(108, 117, 125, .18);
+  background: rgba(102, 51, 153, .08);
+  border: 1px solid rgba(102, 51, 153, .18);
 }
 
 .icon{
@@ -111,8 +111,9 @@ body.light .hero{
   display: grid;
   place-items: center;
   font-weight: 700;
-  background: rgba(13, 110, 253, .08);
-  border: 1px solid rgba(13, 110, 253, .15);
+  background: rgba(102, 51, 153, .08);
+  border: 1px solid rgba(102, 51, 153, .15);
+  color: #663399;
 }
 
 .vlist li{
@@ -132,17 +133,17 @@ body.light .hero{
 }
 
 .stack-item{
-  border: 1px solid rgba(108, 117, 125, .25);
+  border: 1px solid rgba(102, 51, 153, .25);
   border-radius: 14px;
   padding: .9rem;
   background: #fff;
 }
 
 .skill{
-  border: 1px solid rgba(108, 117, 125, .25);
+  border: 1px solid rgba(102, 51, 153, .25);
   border-radius: 12px;
   padding: .65rem .75rem;
-  background: rgba(108, 117, 125, .06);
+  background: rgba(102, 51, 153, .06);
   font-size: .95rem;
  }
 
@@ -161,7 +162,7 @@ button:focus-visible{
 }
 
 .btn-group .btn.active{
-  background: rgba(13, 110, 253, .12);
-  border-color: rgba(13, 110, 253, .55);
-  color: #0d6efd;
+  background: rgba(102, 51, 153, .12);
+  border-color: #663399;
+  color: #663399;
  }

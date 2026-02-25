@@ -10,75 +10,75 @@ body{
 }
 
 body.light{
-  background-color: #ffffff;
-  color: #212529;
+  background-color: #f8fafc;
+  color: #1e293b;
 }
 
 body.light .card,
 body.light .accordion-item{
   background-color: #ffffff;
-  border-color: rgba(0,0,0,.125);
+  border-color: rgba(59, 130, 246, .15);
 }
 
 body.light .text-secondary{
-  color: #6c757d !important;
+  color: #475569 !important;
 }
 
 body.light .btn-outline-secondary{
-  border-color: #6c757d;
-  color: #6c757d;
+  border-color: #3b82f6;
+  color: #3b82f6;
 }
 
 body.light .btn-outline-secondary:hover{
-  background-color: #6c757d;
+  background-color: #3b82f6;
   color: #fff;
 }
 
 body.light .btn-group .btn.active{
-  background: rgba(13, 110, 253, .12);
-  border-color: rgba(13, 110, 253, .55);
-  color: #0d6efd;
+  background: rgba(59, 130, 246, .12);
+  border-color: #3b82f6;
+  color: #3b82f6;
 }
 
 body.light .bg-body-tertiary{
-  background-color: #f8f9fa !important;
+  background-color: #f1f5f9 !important;
 }
 
 body.light .border-top,
 body.light .border-bottom{
-  border-color: rgba(0,0,0,.175) !important;
+  border-color: rgba(59, 130, 246, .15) !important;
 }
 
 body.light .navbar{
-  background-color: rgba(255,255,255,.95) !important;
+  background-color: rgba(248, 250, 252, .95) !important;
 }
 
 body.light .nav-link{
-  color: rgba(33,37,41,.55);
+  color: #475569;
 }
 
 body.light .nav-link:hover{
-  color: rgba(33,37,41,.75);
+  color: #1e293b;
 }
 
 body.light .navbar-brand{
-  color: rgba(33,37,41,.9);
+  color: #1e293b;
 }
 
 body.light .hero{
   background:
-    radial-gradient(900px 300px at 20% 10%, rgba(13,110,253,.08), transparent 60%),
-    radial-gradient(800px 300px at 80% 10%, rgba(25,135,84,.08), transparent 60%);
+    radial-gradient(900px 300px at 20% 10%, rgba(59,130,246,.12), transparent 60%),
+    radial-gradient(800px 300px at 80% 10%, rgba(34,197,94,.12), transparent 60%);
 }
 
 .hero{
   background:
-    radial-gradient(900px 300px at 20% 10%, rgba(13,110,253,.22), transparent 60%),
-    radial-gradient(800px 300px at 80% 10%, rgba(25,135,84,.22), transparent 60%);
+    radial-gradient(900px 300px at 20% 10%, rgba(59,130,246,.28), transparent 60%),
+    radial-gradient(800px 300px at 80% 10%, rgba(34,197,94,.28), transparent 60%);
 }
 
 .grad{
-  background: linear-gradient(90deg, #0d6efd, #20c997);
+  background: linear-gradient(90deg, #3b82f6, #22c55e);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -88,9 +88,9 @@ body.light .hero{
   font-size: .75rem;
   padding: .25rem .5rem;
   border-radius: 999px;
-  background: rgba(13, 110, 253, .1);
-  color: #0d6efd;
-  border: 1px solid rgba(13, 110, 253, .2);
+  background: rgba(59, 130, 246, .12);
+  color: #3b82f6;
+  border: 1px solid rgba(59, 130, 246, .25);
 }
 
 .tag{
@@ -100,8 +100,8 @@ body.light .hero{
   font-size: .85rem;
   padding: .25rem .5rem;
   border-radius: 999px;
-  background: rgba(108, 117, 125, .08);
-  border: 1px solid rgba(108, 117, 125, .18);
+  background: rgba(59, 130, 246, .08);
+  border: 1px solid rgba(59, 130, 246, .18);
 }
 
 .icon{
@@ -111,8 +111,9 @@ body.light .hero{
   display: grid;
   place-items: center;
   font-weight: 700;
-  background: rgba(13, 110, 253, .08);
-  border: 1px solid rgba(13, 110, 253, .15);
+  background: rgba(59, 130, 246, .12);
+  border: 1px solid rgba(59, 130, 246, .2);
+  color: #3b82f6;
 }
 
 .vlist li{
@@ -123,7 +124,7 @@ body.light .hero{
 }
 
 .vlist .k{
-  color: #6c757d;
+  color: #94a3b8;
 }
 
 .vlist .v{
@@ -132,17 +133,17 @@ body.light .hero{
 }
 
 .stack-item{
-  border: 1px solid rgba(108, 117, 125, .25);
+  border: 1px solid rgba(59, 130, 246, .2);
   border-radius: 14px;
   padding: .9rem;
-  background: #fff;
+  background: rgba(30, 41, 59, .4);
 }
 
 .skill{
-  border: 1px solid rgba(108, 117, 125, .25);
+  border: 1px solid rgba(59, 130, 246, .2);
   border-radius: 12px;
   padding: .65rem .75rem;
-  background: rgba(108, 117, 125, .06);
+  background: rgba(59, 130, 246, .08);
   font-size: .95rem;
  }
 
@@ -161,7 +162,7 @@ button:focus-visible{
 }
 
 .btn-group .btn.active{
-  background: rgba(13, 110, 253, .12);
-  border-color: rgba(13, 110, 253, .55);
-  color: #0d6efd;
+  background: rgba(59, 130, 246, .12);
+  border-color: #3b82f6;
+  color: #3b82f6;
  }

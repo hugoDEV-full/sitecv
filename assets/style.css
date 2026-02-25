@@ -44,6 +44,11 @@ body.light .bg-body-tertiary{
   background-color: #f8f9fa !important;
 }
 
+body.light .bg-body-tertiary h2,
+body.light .bg-body-tertiary .h2{
+  color: #0d0d0d !important;
+}
+
 body.light .border-top,
 body.light .border-bottom{
   border-color: rgba(102, 51, 153, .15) !important;

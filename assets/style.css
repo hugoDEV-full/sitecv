@@ -168,8 +168,55 @@ button:focus-visible{
   box-shadow: 0 0 0 .25rem var(--ring) !important;
 }
 
+button:focus-visible{
+  box-shadow: 0 0 0 .25rem var(--ring) !important;
+}
+
 .btn-group .btn.active{
-  background: rgba(102, 51, 153, .12);
+  background: rgba(102, 51, 153, .15);
   border-color: #663399;
   color: #663399;
  }
+
+/* Certification Cards */
+.certification-card{
+  border: 1px solid rgba(102, 51, 153, .2);
+  border-radius: 12px;
+  padding: .75rem;
+  background: rgba(102, 51, 153, .05);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.certification-card:hover{
+  border-color: rgba(102, 51, 153, .4);
+  background: rgba(102, 51, 153, .1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 51, 153, .15);
+}
+
+.cert-thumb{
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: .5rem;
+}
+
+.certification-card[data-cert="iel-exchange"] .cert-thumb{
+  height: 100px;
+}
+
+.certification-card[data-cert="degree"]{
+  border-style: dashed;
+  background: rgba(102, 51, 153, .02);
+}
+
+.certification-card[data-cert="degree"]:hover{
+  background: rgba(102, 51, 153, .05);
+}
+
+.cert-info{
+  text-align: center;
+}

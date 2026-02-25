@@ -13,12 +13,16 @@
   };
 
   const initTheme = () => {
-    let isLight = false; // default dark
+    // Default to dark (no class)
+    let isLight = false;
     try {
       const saved = localStorage.getItem('theme');
       if (saved === 'light') isLight = true;
     } catch (_) {}
-    setTheme(isLight);
+    // Force initial state
+    document.body.classList.toggle('light', isLight);
+    const icon = document.getElementById('theme-icon');
+    if (icon) icon.textContent = isLight ? '🌙' : '☀️';
   };
 
   const bindThemeToggle = () => {

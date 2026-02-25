@@ -3,46 +3,36 @@
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
   // Theme toggle
-  const themeToggleBtn = document.getElementById('theme-toggle');
-  const themeIcon = document.getElementById('theme-icon');
-
   const setTheme = (isLight) => {
-    if (isLight) {
-      document.body.classList.add('light');
-      if (themeIcon) themeIcon.textContent = '🌙';
-    } else {
-      document.body.classList.remove('light');
-      if (themeIcon) themeIcon.textContent = '☀️';
-    }
+    document.body.classList.toggle('light', isLight);
+    const icon = document.getElementById('theme-icon');
+    if (icon) icon.textContent = isLight ? '🌙' : '☀️';
     try {
       localStorage.setItem('theme', isLight ? 'light' : 'dark');
     } catch (_) {}
   };
 
-  const getInitialTheme = () => {
+  const initTheme = () => {
+    let isLight = false; // default dark
     try {
       const saved = localStorage.getItem('theme');
-      if (saved === 'light' || saved === 'dark') return saved === 'light';
+      if (saved === 'light') isLight = true;
     } catch (_) {}
-    // Default to dark
-    return false;
-  };
-
-  const initTheme = () => {
-    const initialTheme = getInitialTheme();
-    setTheme(initialTheme);
+    setTheme(isLight);
   };
 
   const bindThemeToggle = () => {
-    if (themeToggleBtn) {
-      themeToggleBtn.addEventListener('click', () => {
+    const btn = document.getElementById('theme-toggle');
+    if (btn) {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
         const isLight = document.body.classList.contains('light');
         setTheme(!isLight);
       });
     }
   };
 
-  // Run after DOM is ready
+  // Wait for DOM
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
       initTheme();

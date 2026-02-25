@@ -2,6 +2,43 @@
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
+  // Theme toggle
+  const themeToggleBtn = document.getElementById('theme-toggle');
+  const themeIcon = document.getElementById('theme-icon');
+
+  const setTheme = (isLight) => {
+    if (isLight) {
+      document.body.classList.add('light');
+      if (themeIcon) themeIcon.textContent = '🌙';
+    } else {
+      document.body.classList.remove('light');
+      if (themeIcon) themeIcon.textContent = '☀️';
+    }
+    try {
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    } catch (_) {}
+  };
+
+  const getInitialTheme = () => {
+    try {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'light' || saved === 'dark') return saved === 'light';
+    } catch (_) {}
+    // Default to dark
+    return false;
+  };
+
+  const initialTheme = getInitialTheme();
+  setTheme(initialTheme);
+
+  if (themeToggleBtn) {
+    themeToggleBtn.addEventListener('click', () => {
+      const isLight = document.body.classList.contains('light');
+      setTheme(!isLight);
+    });
+  }
+
+  // i18n
   const translations = {
     pt: {
       nav_service: 'Serviço',
@@ -128,7 +165,7 @@
       faq_title: 'Common recruiter questions',
       faq_q1: 'Do you build from scratch or work on maintenance?',
       faq_a1: 'Both. I can structure an MVP quickly and also work on existing codebases to fix, refactor and evolve without breaking what already works.',
-      faq_q2: 'How do you ensure quality and predictability?',
+      faq_q2: 'How do you ensure quality and predictibility?',
       faq_a2: 'Scope alignment, small deliveries, code review, standardization and (when it makes sense) tests and logs to prevent regressions.',
       faq_q3: 'Do you have real live examples?',
       faq_a3: 'Yes. Below are two live systems to evaluate UI, flow and robustness.',

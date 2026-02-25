@@ -4,12 +4,77 @@
 
 body{
   letter-spacing: -0.01em;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light{
+  background-color: #fff;
+  color: #212529;
+}
+
+body.light .card,
+body.light .accordion-item{
+  background-color: #fff;
+  border-color: rgba(0,0,0,.125);
+}
+
+body.light .text-secondary{
+  color: #6c757d !important;
+}
+
+body.light .btn-outline-secondary{
+  border-color: #6c757d;
+  color: #6c757d;
+}
+
+body.light .btn-outline-secondary:hover{
+  background-color: #6c757d;
+  color: #fff;
+}
+
+body.light .btn-group .btn.active{
+  background: rgba(13, 110, 253, .12);
+  border-color: rgba(13, 110, 253, .55);
+  color: #0d6efd;
+}
+
+body.light .bg-body-tertiary{
+  background-color: #f8f9fa !important;
+}
+
+body.light .border-top,
+body.light .border-bottom{
+  border-color: rgba(0,0,0,.175) !important;
+}
+
+body.light .navbar{
+  background-color: rgba(255,255,255,.95) !important;
+}
+
+body.light .nav-link{
+  color: rgba(33,37,41,.55);
+}
+
+body.light .nav-link:hover{
+  color: rgba(33,37,41,.75);
+}
+
+body.light .navbar-brand{
+  color: rgba(33,37,41,.9);
+}
+
+body.light .hero{
+  background:
+    radial-gradient(900px 300px at 20% 10%, rgba(13,110,253,.08), transparent 60%),
+    radial-gradient(800px 300px at 80% 10%, rgba(25,135,84,.08), transparent 60%);
 }
 
 .hero{
   background:
-    radial-gradient(900px 300px at 20% 10%, rgba(13,110,253,.12), transparent 60%),
-    radial-gradient(800px 300px at 80% 10%, rgba(25,135,84,.12), transparent 60%);
+    radial-gradient(900px 300px at 20% 10%, rgba(13,110,253,.22), transparent 60%),
+    radial-gradient(800px 300px at 80% 10%, rgba(25,135,84,.22), transparent 60%);
 }
 
 .grad{

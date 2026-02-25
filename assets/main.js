@@ -2,51 +2,6 @@
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
-  // Theme toggle
-  const setTheme = (isLight) => {
-    document.body.classList.toggle('light', isLight);
-    const icon = document.getElementById('theme-icon');
-    if (icon) icon.textContent = isLight ? '🌙' : '☀️';
-    try {
-      localStorage.setItem('theme', isLight ? 'light' : 'dark');
-    } catch (_) {}
-  };
-
-  const initTheme = () => {
-    // Default to dark (no class)
-    let isLight = false;
-    try {
-      const saved = localStorage.getItem('theme');
-      if (saved === 'light') isLight = true;
-    } catch (_) {}
-    // Force initial state
-    document.body.classList.toggle('light', isLight);
-    const icon = document.getElementById('theme-icon');
-    if (icon) icon.textContent = isLight ? '🌙' : '☀️';
-  };
-
-  const bindThemeToggle = () => {
-    const btn = document.getElementById('theme-toggle');
-    if (btn) {
-      btn.addEventListener('click', (e) => {
-        e.preventDefault();
-        const isLight = document.body.classList.contains('light');
-        setTheme(!isLight);
-      });
-    }
-  };
-
-  // Wait for DOM
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      initTheme();
-      bindThemeToggle();
-    });
-  } else {
-    initTheme();
-    bindThemeToggle();
-  }
-
   // i18n
   const translations = {
     pt: {

@@ -442,6 +442,49 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    // Theme toggle inline
+    (function() {
+      var setTheme = function(isLight) {
+        document.body.classList.toggle('light', isLight);
+        var icon = document.getElementById('theme-icon');
+        if (icon) icon.textContent = isLight ? '🌙' : '☀️';
+        try {
+          localStorage.setItem('theme', isLight ? 'light' : 'dark');
+        } catch (_) {}
+      };
+
+      var initTheme = function() {
+        var isLight = false;
+        try {
+          var saved = localStorage.getItem('theme');
+          if (saved === 'light') isLight = true;
+        } catch (_) {}
+        setTheme(isLight);
+      };
+
+      var bindThemeToggle = function() {
+        var btn = document.getElementById('theme-toggle');
+        if (btn) {
+          btn.onclick = function(e) {
+            e.preventDefault();
+            var isLight = document.body.classList.contains('light');
+            setTheme(!isLight);
+          };
+        }
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+          initTheme();
+          bindThemeToggle();
+        });
+      } else {
+        initTheme();
+        bindThemeToggle();
+      }
+    })();
+  </script>
   <script src="/assets/main.js"></script>
 </body>
 </html>

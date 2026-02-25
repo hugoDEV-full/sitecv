@@ -45,8 +45,10 @@ body.light .bg-body-tertiary{
 }
 
 body.light .bg-body-tertiary h2,
-body.light .bg-body-tertiary .h2{
+body.light .bg-body-tertiary .h2,
+body.light h2[data-i18n="deliver_title"]{
   color: #000000 !important;
+  font-weight: 900 !important;
 }
 
 body.light .border-top,

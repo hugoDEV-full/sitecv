@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hugo Leonardo | Full Stack Software Engineer (Node.js, JavaScript, MySQL)</title>
+  <meta name="description" content="Hugo Leonardo — Full Stack Software Engineer focado em arquitetura backend com Node.js e bancos relacionais (MySQL). Experiência com sistemas escaláveis, APIs REST, autenticação, segurança e deploy em cloud. Veja sistemas publicados." />
+  <meta name="keywords" content="desenvolvedor javascript, node.js, react, bootstrap, sistemas, full stack, api, painel administrativo, saas" />
+  <meta name="author" content="Hugo Leonardo" />
+  <link rel="canonical" href="https://seu-dominio-aqui/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="Hugo Leonardo | Full Stack Software Engineer (Node.js, JavaScript, MySQL)" />
+  <meta property="og:description" content="Sistemas escaláveis em Node.js e MySQL: APIs REST, autenticação, segurança e deploy em cloud. Veja sistemas publicados." />
+  <meta property="og:url" content="https://seu-dominio-aqui/" />
+  <meta property="og:image" content="https://seu-dominio-aqui/assets/og-image.svg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hugo Leonardo | Full Stack Software Engineer" />
+  <meta name="twitter:description" content="Node.js, JavaScript e MySQL. Sistemas complexos, escaláveis e prontos para produção." />
+  <meta name="twitter:image" content="https://seu-dominio-aqui/assets/og-image.svg" />
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/style.css" />
+
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Hugo Leonardo",
+      "jobTitle": "Full Stack Software Engineer",
+      "url": "https://seu-dominio-aqui/",
+      "sameAs": [
+        "https://www.linkedin.com/in/hugo-leonardo-p-a-495a40233/"
+      ],
+      "knowsAbout": [
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "React",
+        "Bootstrap",
+        "APIs REST",
+        "MySQL",
+        "Autenticação",
+        "Painéis administrativos"
+      ]
+    }
+  </script>
+</head>
+<body>
+  <header class="sticky-top border-bottom bg-body" style="backdrop-filter: blur(8px);">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="#top">Hugo Leonardo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Abrir navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#servico" data-i18n="nav_service">Serviço</a></li>
+            <li class="nav-item"><a class="nav-link" href="#stack" data-i18n="nav_stack">Stack</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cases" data-i18n="nav_systems">Sistemas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#processo" data-i18n="nav_process">Processo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato" data-i18n="nav_contact">Contato</a></li>
+          </ul>
+          <div class="d-flex align-items-center gap-2 ms-lg-3">
+            <div class="btn-group" role="group" aria-label="Idioma">
+              <button class="btn btn-outline-secondary btn-sm" type="button" id="lang-pt">PT</button>
+              <button class="btn btn-outline-secondary btn-sm" type="button" id="lang-en">EN</button>
+            </div>
+            <a class="btn btn-primary" href="#contato" data-i18n="cta_talk">Falar comigo</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero py-5">
+      <div class="container py-lg-4">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <p class="badge text-bg-light border mb-3" data-i18n="hero_badge">Full Stack Software Engineer</p>
+            <h1 class="display-5 fw-bold lh-sm" data-i18n="hero_title">Sistemas complexos em <span class="grad">Node.js</span> com JavaScript, MySQL, React e Bootstrap</h1>
+            <p class="lead mt-3 text-secondary" data-i18n="hero_lead">
+              Sou engenheiro de software focado em arquitetura backend usando Node.js e bancos relacionais. Tenho experiência construindo sistemas escaláveis, APIs REST, autenticação, segurança e deploy em cloud.
+            </p>
+            <div class="d-flex flex-column flex-sm-row gap-2 mt-4">
+              <a class="btn btn-primary btn-lg" href="#cases" data-i18n="hero_btn_systems">Ver sistemas publicados</a>
+              <a class="btn btn-outline-secondary btn-lg" href="#servico" data-i18n="hero_btn_help">Como eu ajudo</a>
+            </div>
+            <div class="mt-4 small text-secondary" data-i18n="hero_exp">
+              Experiência profissional: Inova Comunicações Inteligentes (Software Engineer, desde 2018)
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card shadow-sm border-0">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <div class="fw-semibold" data-i18n="recruiter_summary">Resumo para recrutadores</div>
+                  <span class="pill" data-i18n="ready_interview">Pronto para entrevista</span>
+                </div>
+                <ul class="list-unstyled m-0 vlist">
+                  <li><span class="k" data-i18n="k_focus">Foco</span><span class="v" data-i18n="v_focus">Arquitetura backend (Node.js)</span></li>
+                  <li><span class="k" data-i18n="k_db">Banco</span><span class="v" data-i18n="v_db">MySQL (modelagem e performance)</span></li>
+                  <li><span class="k" data-i18n="k_delivery">Entrega</span><span class="v" data-i18n="v_delivery">MVP → evolução contínua</span></li>
+                  <li><span class="k" data-i18n="k_quality">Qualidade</span><span class="v" data-i18n="v_quality">Segurança, performance e produção</span></li>
+                </ul>
+                <hr class="my-4" />
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="tag">APIs REST</span>
+                  <span class="tag">Auth & Roles</span>
+                  <span class="tag">Express.js</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Dashboards</span>
+                  <span class="tag">Segurança</span>
+                  <span class="tag">Filtros & relatórios</span>
+                  <span class="tag">Deploy</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servico" class="py-5 border-top bg-body-tertiary">
+      <div class="container">
+        <div class="row align-items-end g-3 mb-4">
+          <div class="col-lg-8">
+            <h2 class="fw-bold" data-i18n="deliver_title">O que eu entrego</h2>
+            <p class="text-secondary m-0" data-i18n="deliver_sub">Aplicações completas e escaláveis, com uma base sólida para evoluir.</p>
+          </div>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <div class="icon mb-3">API</div>
+                <div class="fw-semibold" data-i18n="card_backend_title">Backend Node.js</div>
+                <div class="text-secondary mt-2" data-i18n="card_backend_desc">APIs, regras de negócio, integrações e persistência de dados.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <div class="icon mb-3">UI</div>
+                <div class="fw-semibold" data-i18n="card_front_title">Front-end React</div>
+                <div class="text-secondary mt-2" data-i18n="card_front_desc">Interfaces rápidas, responsivas e focadas em produtividade.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <div class="icon mb-3">ADM</div>
+                <div class="fw-semibold" data-i18n="card_dash_title">Painéis e dashboards</div>
+                <div class="text-secondary mt-2" data-i18n="card_dash_desc">Listagens, filtros, relatórios, permissões e fluxos completos.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <div class="icon mb-3">SHIP</div>
+                <div class="fw-semibold" data-i18n="card_deploy_title">Deploy e evolução</div>
+                <div class="text-secondary mt-2" data-i18n="card_deploy_desc">Publicação, monitoramento básico e roadmap de melhorias.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="py-5">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-6">
+            <h2 class="fw-bold" data-i18n="stack_title">Stack principal</h2>
+            <p class="text-secondary" data-i18n="stack_sub">Ferramentas que uso para construir sistemas complexos com velocidade e consistência.</p>
+
+            <div class="row g-2">
+              <div class="col-sm-6">
+                <div class="stack-item">
+                  <div class="fw-semibold">JavaScript ES6+</div>
+                  <div class="small text-secondary">Código moderno e legível</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="stack-item">
+                  <div class="fw-semibold">Node.js / Express.js</div>
+                  <div class="small text-secondary">Arquitetura backend e APIs REST</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="stack-item">
+                  <div class="fw-semibold">MySQL</div>
+                  <div class="small text-secondary">Modelagem, queries e otimização</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="stack-item">
+                  <div class="fw-semibold">React + Bootstrap</div>
+                  <div class="small text-secondary">Interfaces responsivas e rápidas</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body p-4">
+                <div class="fw-semibold" data-i18n="faq_title">O que recrutadores costumam perguntar</div>
+                <div class="accordion mt-3" id="faq">
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="h1">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c1" aria-expanded="true" aria-controls="c1">
+                        <span data-i18n="faq_q1">Você pega sistemas do zero ou manutenção?</span>
+                      </button>
+                    </h3>
+                    <div id="c1" class="accordion-collapse collapse show" aria-labelledby="h1" data-bs-parent="#faq">
+                      <div class="accordion-body text-secondary">
+                        <span data-i18n="faq_a1">Ambos. Consigo estruturar um MVP bem rápido e também entrar em código existente para corrigir, refatorar e evoluir sem quebrar o que já funciona.</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="h2">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2" aria-expanded="false" aria-controls="c2">
+                        <span data-i18n="faq_q2">Como você garante qualidade e previsibilidade?</span>
+                      </button>
+                    </h3>
+                    <div id="c2" class="accordion-collapse collapse" aria-labelledby="h2" data-bs-parent="#faq">
+                      <div class="accordion-body text-secondary">
+                        <span data-i18n="faq_a2">Alinhamento de escopo, entregas pequenas, revisão de código, padronização e (quando faz sentido) testes e logs para evitar regressões.</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="h3">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c3" aria-expanded="false" aria-controls="c3">
+                        <span data-i18n="faq_q3">Você tem exemplos reais no ar?</span>
+                      </button>
+                    </h3>
+                    <div id="c3" class="accordion-collapse collapse" aria-labelledby="h3" data-bs-parent="#faq">
+                      <div class="accordion-body text-secondary">
+                        <span data-i18n="faq_a3">Sim. Logo abaixo estão dois sistemas publicados para avaliar UI, fluxo e robustez.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resumo" class="py-5 border-top">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <h2 class="fw-bold" data-i18n="summary_title">Professional Summary</h2>
+            <p class="text-secondary" data-i18n="summary_body">
+              Software Engineer focado em arquitetura backend com Node.js e bancos relacionais. Experiência construindo sistemas web escaláveis, APIs REST, autenticação e deploy em cloud.
+              Forte base em otimização de performance, práticas de segurança e aplicações prontas para produção.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="card shadow-sm">
+              <div class="card-body p-4">
+                <div class="fw-semibold" data-i18n="core_skills_title">Core Skills</div>
+                <div class="row g-2 mt-2">
+                  <div class="col-sm-6"><div class="skill">Node.js, Express.js, REST API Design</div></div>
+                  <div class="col-sm-6"><div class="skill">MySQL, Modelagem, Query Optimization</div></div>
+                  <div class="col-sm-6"><div class="skill">Auth & Security (bcrypt, Sessions, CSRF)</div></div>
+                  <div class="col-sm-6"><div class="skill">Cloud Deploy (Railway), CI/CD, GitHub</div></div>
+                  <div class="col-sm-6"><div class="skill">Bootstrap, DataTables, Chart.js</div></div>
+                  <div class="col-sm-6"><div class="skill">Arquitetura, Performance Optimization</div></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card shadow-sm mt-3">
+              <div class="card-body p-4">
+                <div class="fw-semibold" data-i18n="exp_title">Professional Experience</div>
+                <div class="text-secondary mt-2" data-i18n="exp_company">Inova Comunicações Inteligentes — Software Engineer (2018 → atual)</div>
+                <ul class="text-secondary mt-2 mb-0">
+                  <li data-i18n="exp_b1">Desenvolvimento de sistemas com Node.js e MySQL.</li>
+                  <li data-i18n="exp_b2">Autenticação segura e controle de acesso por perfis (RBAC).</li>
+                  <li data-i18n="exp_b3">Dashboards e módulos de relatórios.</li>
+                  <li data-i18n="exp_b4">Otimização de consultas SQL e indexação.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cases" class="py-5 border-top bg-body-tertiary">
+      <div class="container">
+        <div class="row g-3 align-items-end mb-4">
+          <div class="col-lg-8">
+            <h2 class="fw-bold" data-i18n="cases_title">Sistemas publicados</h2>
+            <p class="text-secondary m-0" data-i18n="cases_sub">Links reais para avaliação. Se quiser, eu posso disponibilizar credenciais de demonstração.</p>
+          </div>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-lg-6">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body p-4">
+                <div class="d-flex justify-content-between align-items-start gap-3">
+                  <div>
+                    <div class="fw-semibold fs-5">Gestão Clínica</div>
+                    <div class="text-secondary mt-1" data-i18n="case1_desc">Sistema web com autenticação e fluxo de gestão.</div>
+                  </div>
+                  <span class="tag">Prod</span>
+                </div>
+                <hr />
+                <div class="d-flex flex-column gap-2">
+                  <a class="btn btn-primary" href="https://gestao-clinica-production.up.railway.app/login" target="_blank" rel="noreferrer" data-i18n="open_system">Abrir sistema</a>
+                  <div class="small text-secondary">URL: gestao-clinica-production.up.railway.app</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body p-4">
+                <div class="d-flex justify-content-between align-items-start gap-3">
+                  <div>
+                    <div class="fw-semibold fs-5">Controle de Frota 2026</div>
+                    <div class="text-secondary mt-1" data-i18n="case2_desc">Aplicação para operações e controle com login.</div>
+                  </div>
+                  <span class="tag">Prod</span>
+                </div>
+                <hr />
+                <div class="d-flex flex-column gap-2">
+                  <a class="btn btn-primary" href="https://controle-frota-production.up.railway.app/login" target="_blank" rel="noreferrer" data-i18n="open_system">Abrir sistema</a>
+                  <div class="small text-secondary">URL: controle-frota-production.up.railway.app</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="alert alert-warning mt-4 mb-0" role="alert" data-i18n="cases_note">
+          Se algum link estiver indisponível no momento (manutenção do host), me avise que eu envio um vídeo curto de navegação ou subo uma demo alternativa.
+        </div>
+      </div>
+    </section>
+
+    <section id="processo" class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <h2 class="fw-bold" data-i18n="process_title">Como eu trabalho</h2>
+            <p class="text-secondary" data-i18n="process_sub">Um processo simples para reduzir risco e acelerar entrega.</p>
+            <div class="mt-3 text-secondary">
+              <span data-i18n="education">Formação: Bacharelado em Ciência da Computação — UNICEUB</span>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <ol class="process">
+              <li>
+                <div class="fw-semibold" data-i18n="p1_title">Diagnóstico rápido</div>
+                <div class="text-secondary" data-i18n="p1_desc">Entender objetivo, usuários e regras de negócio.</div>
+              </li>
+              <li>
+                <div class="fw-semibold" data-i18n="p2_title">Plano de entrega</div>
+                <div class="text-secondary" data-i18n="p2_desc">Fatiar por valor (MVP e próximas versões).</div>
+              </li>
+              <li>
+                <div class="fw-semibold" data-i18n="p3_title">Implementação</div>
+                <div class="text-secondary" data-i18n="p3_desc">Front + back, validações, segurança (bcrypt/sessões/CSRF) e qualidade de código.</div>
+              </li>
+              <li>
+                <div class="fw-semibold" data-i18n="p4_title">Deploy e acompanhamento</div>
+                <div class="text-secondary" data-i18n="p4_desc">Publicação (Railway/Netlify), CI/CD e ajustes com base em feedback real.</div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="py-5 border-top bg-body-tertiary">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-7">
+            <h2 class="fw-bold" data-i18n="contact_title">Vamos conversar</h2>
+            <p class="text-secondary" data-i18n="contact_sub">Se você é recrutador(a) ou líder técnico(a), posso te passar mais detalhes do meu histórico, disponibilidade e contexto dos projetos.</p>
+            <div class="d-flex flex-column flex-sm-row gap-2 mt-3">
+              <a class="btn btn-primary btn-lg" href="mailto:hugo.leonardo.jobs@gmail.com">hugo.leonardo.jobs@gmail.com</a>
+              <a class="btn btn-outline-secondary btn-lg" href="https://www.linkedin.com/in/hugo-leonardo-p-a-495a40233/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+            <div class="small text-secondary mt-3" data-i18n="contact_note">E-mail e LinkedIn acima para contato rápido.</div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card shadow-sm">
+              <div class="card-body p-4">
+                <div class="fw-semibold" data-i18n="refs_title">Referências profissionais</div>
+                <div class="text-secondary mt-2">Fernando Rocha — Inova Comunicações Inteligentes</div>
+                <div class="text-secondary">Contato: <a href="mailto:fernando@inova.in">fernando@inova.in</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4">
+    <div class="container d-flex flex-column flex-sm-row justify-content-between gap-2">
+      <div class="text-secondary small">© <span id="year"></span> Hugo Leonardo. Full Stack Software Engineer.</div>
+      <div class="text-secondary small">Feito com Bootstrap. Hospedado no Netlify.</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="/assets/main.js"></script>
+</body>
+</html>

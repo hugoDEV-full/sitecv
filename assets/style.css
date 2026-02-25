@@ -11,7 +11,7 @@ body{
 
 body.light{
   background-color: #ffffff;
-  color: #212529;
+  color: #1a1a1a;
 }
 
 body.light .card,
@@ -54,15 +54,15 @@ body.light .navbar{
 }
 
 body.light .nav-link{
-  color: rgba(33,37,41,.55);
+  color: #495057;
 }
 
 body.light .nav-link:hover{
-  color: rgba(33,37,41,.75);
+  color: #1a1a1a;
 }
 
 body.light .navbar-brand{
-  color: rgba(33,37,41,.9);
+  color: #1a1a1a;
 }
 
 body.light .hero{

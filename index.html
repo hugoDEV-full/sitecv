@@ -441,9 +441,9 @@
                     </div>
                     <div class="col-12 col-md-4">
                       <div class="certification-card" data-cert="software-tester">
-                        <img src="assets/certs/teste de software-udemy.jpg" alt="Software Tester - Udemy" class="cert-thumb">
+                        <img src="assets/certs/teste de software-udemy.jpg" alt="Teste de Software - Udemy" class="cert-thumb">
                         <div class="cert-info">
-                          <div class="fw-semibold small">Software Tester</div>
+                          <div class="fw-semibold small">Teste de Software</div>
                           <div class="small text-secondary">Udemy • 2022</div>
                         </div>
                       </div>
@@ -630,8 +630,8 @@
             
             if (certImages[cert]) {
               modalImage.src = certImages[cert];
-              var title = this.querySelector('.fw-semibold').textContent;
-              modalTitle.textContent = title;
+              var titleEl = this.querySelector('.cert-info .fw-semibold') || this.querySelector('.fw-semibold');
+              if (titleEl) modalTitle.textContent = titleEl.textContent;
               
               var bsModal = new bootstrap.Modal(modal);
               bsModal.show();

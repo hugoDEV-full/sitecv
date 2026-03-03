@@ -243,6 +243,35 @@ button:focus-visible{
    background-color: rgba(102, 51, 153, .25);
  }
 
+ .cert-carousel{
+   padding: 0 2.25rem 1.75rem;
+ }
+
+ .cert-carousel .carousel-indicators{
+   margin-bottom: 0;
+ }
+
+ .cert-carousel .carousel-indicators [data-bs-target]{
+   width: 10px;
+   height: 10px;
+   border-radius: 999px;
+   background-color: rgba(102, 51, 153, .35);
+ }
+
+ .cert-carousel .carousel-indicators .active{
+   background-color: rgba(102, 51, 153, .75);
+ }
+
+ @media (max-width: 575.98px){
+   .cert-carousel{
+     padding: 0 0 1.75rem;
+   }
+   .cert-carousel .carousel-control-prev,
+   .cert-carousel .carousel-control-next{
+     display: none;
+   }
+ }
+
 /* Modal adjustments for certificates */
 #certModal .modal-body{
   padding: 1rem;

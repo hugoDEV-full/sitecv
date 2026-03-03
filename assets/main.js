@@ -17,6 +17,7 @@
       hero_lead: 'Sou engenheiro de software focado em arquitetura backend usando Node.js e bancos relacionais. Tenho experiência construindo sistemas escaláveis, APIs REST, autenticação, segurança e deploy em cloud.',
       hero_btn_systems: 'Ver sistemas publicados',
       hero_btn_help: 'Como eu ajudo',
+      cv_download: 'Baixar CV (PDF)',
       hero_exp: 'Experiência profissional: Inova Comunicações Inteligentes (Software Engineer, desde 2018)',
 
       recruiter_summary: 'Resumo para recrutadores',
@@ -99,6 +100,7 @@
       hero_lead: 'I am a software engineer focused on backend architecture using Node.js and relational databases. I build scalable web systems, REST APIs, authentication, security and cloud deployments.',
       hero_btn_systems: 'View live systems',
       hero_btn_help: 'How I help',
+      cv_download: 'Download CV (PDF)',
       hero_exp: 'Professional experience: Inova Comunicações Inteligentes (Software Engineer, since 2018)',
 
       recruiter_summary: 'Recruiter summary',

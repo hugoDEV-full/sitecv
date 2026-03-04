@@ -65,8 +65,8 @@
 
       cases_title: 'Sistemas publicados',
       cases_sub: 'Links reais para avaliação. Se quiser, eu posso disponibilizar credenciais de demonstração.',
-      case1_desc: 'Sistema web com autenticação e fluxo de gestão.',
-      case2_desc: 'Aplicação para operações e controle com login.',
+      case1_desc: 'Sistema de gestão clínica com login, cadastro de dados, fluxos operacionais e controle de acesso por perfil. Foco em produtividade e organização do atendimento.',
+      case2_desc: 'Sistema de controle de frota com login, gestão operacional e visão centralizada de informações. Ideal para acompanhar rotinas, padronizar processos e reduzir retrabalho.',
       open_system: 'Abrir sistema',
       cases_note: 'Se algum link estiver indisponível no momento (manutenção do host), me avise que eu envio um vídeo curto de navegação ou subo uma demo alternativa.',
 
@@ -148,8 +148,8 @@
 
       cases_title: 'Live systems',
       cases_sub: 'Real links for evaluation. If needed, I can provide demo credentials.',
-      case1_desc: 'Web system with authentication and management flow.',
-      case2_desc: 'Operations and fleet control application with login.',
+      case1_desc: 'Clinic management system with authentication, data registration, operational workflows and role-based access control. Built for productivity and organized daily routines.',
+      case2_desc: 'Fleet control system with authentication, operational management and a centralized view of key information. Helps standardize processes and reduce rework.',
       open_system: 'Open system',
       cases_note: 'If any link is temporarily unavailable (host maintenance), I can share a short walkthrough video or provide an alternative demo.',
 

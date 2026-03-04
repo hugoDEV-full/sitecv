@@ -72,6 +72,7 @@
       exp_b2: 'Autenticação segura e controle de acesso por perfis (RBAC).',
       exp_b3: 'Dashboards e módulos de relatórios.',
       exp_b4: 'Otimização de consultas SQL e indexação.',
+      exp_b5: 'Contribuí na construção e suporte de fluxos de ligações via VoIP usados pelo SAMU (Brasília).',
 
       cases_title: 'Sistemas publicados',
       cases_sub: 'Links reais para avaliação. Se quiser, eu posso disponibilizar credenciais de demonstração.',
@@ -165,6 +166,7 @@
       exp_b2: 'Implemented secure authentication and role-based access control (RBAC).',
       exp_b3: 'Built dashboards and reporting modules.',
       exp_b4: 'Optimized SQL queries and indexing for performance.',
+      exp_b5: 'Contributed to building and supporting VoIP call flows used by SAMU (Brasília).',
 
       cases_title: 'Live systems',
       cases_sub: 'Real links for evaluation. If needed, I can provide demo credentials.',

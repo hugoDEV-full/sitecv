@@ -65,8 +65,8 @@
 
       cases_title: 'Sistemas publicados',
       cases_sub: 'Links reais para avaliação. Se quiser, eu posso disponibilizar credenciais de demonstração.',
-      case1_desc: 'Sistema de gestão clínica com login, cadastro de dados, fluxos operacionais e controle de acesso por perfil. Foco em produtividade e organização do atendimento.',
-      case2_desc: 'Sistema de controle de frota com login, gestão operacional e visão centralizada de informações. Ideal para acompanhar rotinas, padronizar processos e reduzir retrabalho.',
+      case1_desc: 'Sistema de gestão clínica com autenticação, cadastros (pacientes/atendimentos), organização de rotinas e controle de acesso por perfil (RBAC). Estruturado para agilizar o dia a dia e reduzir erros operacionais.',
+      case2_desc: 'Sistema de controle de frota com autenticação, painéis operacionais e visão centralizada para acompanhamento do dia a dia. Ajuda a padronizar rotinas, aumentar rastreabilidade e reduzir retrabalho.',
       open_system: 'Abrir sistema',
       cases_note: 'Se algum link estiver indisponível no momento (manutenção do host), me avise que eu envio um vídeo curto de navegação ou subo uma demo alternativa.',
 
@@ -148,8 +148,8 @@
 
       cases_title: 'Live systems',
       cases_sub: 'Real links for evaluation. If needed, I can provide demo credentials.',
-      case1_desc: 'Clinic management system with authentication, data registration, operational workflows and role-based access control. Built for productivity and organized daily routines.',
-      case2_desc: 'Fleet control system with authentication, operational management and a centralized view of key information. Helps standardize processes and reduce rework.',
+      case1_desc: 'Clinic management system with authentication, registration flows (patients/appointments), routine organization and role-based access control (RBAC). Designed to streamline daily operations and reduce errors.',
+      case2_desc: 'Fleet control system with authentication, operational dashboards and a centralized view for day-to-day tracking. Helps standardize routines, improve traceability and reduce rework.',
       open_system: 'Open system',
       cases_note: 'If any link is temporarily unavailable (host maintenance), I can share a short walkthrough video or provide an alternative demo.',
 

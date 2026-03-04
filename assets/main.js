@@ -31,6 +31,16 @@
       k_quality: 'Qualidade',
       v_quality: 'Segurança, performance e produção',
 
+      voip_title: 'VoIP (resumo)',
+      voip_k_protocols: 'Protocolos',
+      voip_v_protocols: 'SIP/RTP e troubleshooting de chamadas',
+      voip_k_debug: 'Diagnóstico',
+      voip_v_debug: 'Leitura de logs e análise de PCAP',
+      voip_k_sbc: 'Infra',
+      voip_v_sbc: 'FreeSWITCH + OpenSIPS/Kamailio (config/ajustes)',
+      voip_k_prod: 'Produção',
+      voip_v_prod: 'Linux, automações e operação em ambiente crítico',
+
       deliver_title: 'O que eu entrego',
       deliver_sub: 'Aplicações completas e escaláveis, com uma base sólida para evoluir.',
       card_backend_title: 'Backend Node.js',
@@ -113,6 +123,16 @@
       v_delivery: 'MVP → continuous evolution',
       k_quality: 'Quality',
       v_quality: 'Security, performance and production',
+
+      voip_title: 'VoIP (summary)',
+      voip_k_protocols: 'Protocols',
+      voip_v_protocols: 'SIP/RTP and call troubleshooting',
+      voip_k_debug: 'Debugging',
+      voip_v_debug: 'Log reading and PCAP analysis',
+      voip_k_sbc: 'Infra',
+      voip_v_sbc: 'FreeSWITCH + OpenSIPS/Kamailio (config/tuning)',
+      voip_k_prod: 'Production',
+      voip_v_prod: 'Linux, automations and critical environment ops',
 
       deliver_title: 'What I deliver',
       deliver_sub: 'Complete, scalable applications with a solid foundation to evolve.',

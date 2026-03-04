@@ -139,6 +139,17 @@ body.light .hero{
   text-align: right;
 }
 
+ .vlist li.exp-highlight{
+   border-left: 3px solid rgba(102, 51, 153, .6);
+   padding-left: .75rem;
+   background: rgba(102, 51, 153, .06);
+   border-radius: 10px;
+ }
+
+ body.light .vlist li.exp-highlight{
+   background: rgba(102, 51, 153, .08);
+ }
+
 .stack-item{
   border: 1px solid rgba(102, 51, 153, .25);
   border-radius: 14px;

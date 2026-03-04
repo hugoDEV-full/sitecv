@@ -39,7 +39,7 @@
       voip_k_sbc: 'Infra',
       voip_v_sbc: 'Contato com FreeSWITCH + OpenSIPS (config/ajustes)',
       voip_k_prod: 'Produção',
-      voip_v_prod: 'Linux e rotinas básicas de operação/monitoramento',
+      voip_v_prod: 'Linux e rotinas avançadas de operação/monitoramento',
 
       deliver_title: 'O que eu entrego',
       deliver_sub: 'Aplicações completas e escaláveis, com uma base sólida para evoluir.',
@@ -133,7 +133,7 @@
       voip_k_sbc: 'Infra',
       voip_v_sbc: 'Exposure to FreeSWITCH + OpenSIPS (config/tuning)',
       voip_k_prod: 'Production',
-      voip_v_prod: 'Linux and basic operations/monitoring routines',
+      voip_v_prod: 'Linux and advanced operations/monitoring routines',
 
       deliver_title: 'What I deliver',
       deliver_sub: 'Complete, scalable applications with a solid foundation to evolve.',

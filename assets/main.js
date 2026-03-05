@@ -61,7 +61,7 @@
       faq_q2: 'Como você garante qualidade e previsibilidade?',
       faq_a2: 'Alinhamento de escopo, entregas pequenas, revisão de código, padronização e (quando faz sentido) testes e logs para evitar regressões.',
       faq_q3: 'Você tem exemplos reais no ar?',
-      faq_a3: 'Sim. Logo abaixo estão dois sistemas publicados para avaliar UI, fluxo e robustez.',
+      faq_a3: 'Sim. Logo abaixo estão três sistemas publicados para avaliar UI, fluxo e robustez.',
 
       summary_title: 'Professional Summary',
       summary_body: 'Software Engineer focado em arquitetura backend com Node.js e bancos relacionais. Experiência construindo sistemas web escaláveis, APIs REST, autenticação e deploy em cloud. Forte base em otimização de performance, práticas de segurança e aplicações prontas para produção.',
@@ -78,6 +78,7 @@
       cases_sub: 'Links reais para avaliação. Se quiser, eu posso disponibilizar credenciais de demonstração.',
       case1_desc: 'Sistema de gestão clínica com autenticação, cadastros (pacientes/atendimentos), organização de rotinas e controle de acesso por perfil (RBAC). Estruturado para agilizar o dia a dia e reduzir erros operacionais.',
       case2_desc: 'Sistema de controle de frota com autenticação, painéis operacionais e visão centralizada para acompanhamento do dia a dia. Ajuda a padronizar rotinas, aumentar rastreabilidade e reduzir retrabalho.',
+      case3_desc: 'Plataforma de monitoramento e análise de tráfego VoIP em tempo real. Demonstra fluxo SIP/RTP e problemas comuns como one-way audio por NAT incorreto (SDP com IP privado), além de cenários de latência.',
       open_system: 'Abrir sistema',
       cases_note: 'Se algum link estiver indisponível no momento (manutenção do host), me avise que eu envio um vídeo curto de navegação ou subo uma demo alternativa.',
 
@@ -155,7 +156,7 @@
       faq_q2: 'How do you ensure quality and predictibility?',
       faq_a2: 'Scope alignment, small deliveries, code review, standardization and (when it makes sense) tests and logs to prevent regressions.',
       faq_q3: 'Do you have real live examples?',
-      faq_a3: 'Yes. Below are two live systems to evaluate UI, flow and robustness.',
+      faq_a3: 'Yes. Below are three live systems to evaluate UI, flow and robustness.',
 
       summary_title: 'Professional Summary',
       summary_body: 'Software engineer focused on backend architecture using Node.js and relational databases. Experience building scalable web systems, REST APIs, authentication and cloud deployments. Strong background in performance optimization, security practices and production-ready applications.',
@@ -172,6 +173,7 @@
       cases_sub: 'Real links for evaluation. If needed, I can provide demo credentials.',
       case1_desc: 'Clinic management system with authentication, registration flows (patients/appointments), routine organization and role-based access control (RBAC). Designed to streamline daily operations and reduce errors.',
       case2_desc: 'Fleet control system with authentication, operational dashboards and a centralized view for day-to-day tracking. Helps standardize routines, improve traceability and reduce rework.',
+      case3_desc: 'Real-time VoIP traffic monitoring and analysis platform. Demonstrates a full SIP/RTP call flow and common issues like one-way audio caused by incorrect NAT (SDP with a private IP), plus latency scenarios.',
       open_system: 'Open system',
       cases_note: 'If any link is temporarily unavailable (host maintenance), I can share a short walkthrough video or provide an alternative demo.',
 

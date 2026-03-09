@@ -235,6 +235,13 @@ button:focus-visible{
   text-align: center;
 }
 
+ .fullstack-img{
+   max-height: 360px;
+   width: 100%;
+   object-fit: contain;
+   background: rgba(255,255,255,.85);
+ }
+
  .cert-carousel .carousel-control-prev,
  .cert-carousel .carousel-control-next{
    width: 2.5rem;

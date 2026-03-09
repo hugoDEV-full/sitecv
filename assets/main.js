@@ -76,6 +76,7 @@
 
       fullstack_card_title: 'Full-Stack Developer: O poder de aprender um pouco de tudo',
       fullstack_card_body: 'A imagem resume bem: sozinho, cada skill parece limitada… mas juntas, elas formam um Full-Stack Developer. Você não precisa ser perfeito em uma coisa só para construir coisas incríveis. O poder real vem do equilíbrio.',
+      fullstack_img_alt: 'Full-Stack Developer: O poder de aprender um pouco de tudo',
 
       cases_title: 'Sistemas publicados',
       cases_sub: 'Links reais para avaliação. Se quiser, eu posso disponibilizar credenciais de demonstração.',
@@ -174,6 +175,7 @@
 
       fullstack_card_title: 'Full-Stack Developer: The Power of Learning a Bit of Everything',
       fullstack_card_body: 'The image says it perfectly — alone, every skill feels limited… but together, they create a Full-Stack Developer. You don’t have to be perfect in one thing to build amazing things. The real power comes from balance.',
+      fullstack_img_alt: 'Full-Stack Developer: The Power of Learning a Bit of Everything',
 
       cases_title: 'Live systems',
       cases_sub: 'Real links for evaluation. If needed, I can provide demo credentials.',
@@ -217,6 +219,18 @@
       const key = el.getAttribute('data-i18n');
       const value = dict[key];
       if (typeof value === 'string') el.innerHTML = value;
+    });
+
+    document.querySelectorAll('[data-i18n-attr]').forEach((el) => {
+      const spec = el.getAttribute('data-i18n-attr') || '';
+      spec.split(',').map((s) => s.trim()).filter(Boolean).forEach((pair) => {
+        const parts = pair.split(':').map((p) => p.trim());
+        const attr = parts[0];
+        const key = parts[1];
+        if (!attr || !key) return;
+        const value = dict[key];
+        if (typeof value === 'string') el.setAttribute(attr, value);
+      });
     });
 
     setActiveLangUi(lang);

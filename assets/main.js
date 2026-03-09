@@ -73,6 +73,7 @@
       exp_b3: 'Dashboards e módulos de relatórios.',
       exp_b4: 'Otimização de consultas SQL e indexação.',
       exp_b5: 'Contribuí na construção e suporte de fluxos de ligações via VoIP usados pelo SAMU (Brasília).',
+      exp_b6: 'Arquitetura do sistema (Controle de Frota): UI em Bootstrap 5 + EJS, rotas HTTP em Express.js e persistência em MySQL — fluxo típico: usuário acessa → frontend renderiza → ação chama rota Express → backend consulta MySQL → resposta → interface atualiza.',
 
       fullstack_card_title: 'Full-Stack Developer: O poder de aprender um pouco de tudo',
       fullstack_card_body: 'A imagem resume bem: sozinho, cada skill parece limitada… mas juntas, elas formam um Full-Stack Developer. Você não precisa ser perfeito em uma coisa só para construir coisas incríveis. O poder real vem do equilíbrio.',
@@ -172,6 +173,7 @@
       exp_b3: 'Built dashboards and reporting modules.',
       exp_b4: 'Optimized SQL queries and indexing for performance.',
       exp_b5: 'Contributed to building and supporting VoIP call flows used by SAMU (Brasília).',
+      exp_b6: 'System architecture (Fleet Management): UI with Bootstrap 5 + EJS, HTTP routes in Express.js, and persistence in MySQL — typical flow: user accesses → frontend renders → action calls Express route → backend queries MySQL → response → UI updates.',
 
       fullstack_card_title: 'Full-Stack Developer: The Power of Learning a Bit of Everything',
       fullstack_card_body: 'The image says it perfectly — alone, every skill feels limited… but together, they create a Full-Stack Developer. You don’t have to be perfect in one thing to build amazing things. The real power comes from balance.',

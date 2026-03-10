@@ -31,7 +31,7 @@
       k_quality: 'Qualidade',
       v_quality: 'Segurança, performance e produção',
 
-      voip_title: 'VoIP (em construção)',
+      voip_title: 'VoIP',
       voip_k_protocols: 'Protocolos',
       voip_v_protocols: 'Noções de SIP/RTP e fluxo de chamadas',
       voip_k_debug: 'Diagnóstico',
@@ -147,7 +147,7 @@
       k_quality: 'Quality',
       v_quality: 'Security, performance and production',
 
-      voip_title: 'VoIP (in progress)',
+      voip_title: 'VoIP',
       voip_k_protocols: 'Protocols',
       voip_v_protocols: 'Basic SIP/RTP concepts and call flow',
       voip_k_debug: 'Debugging',
